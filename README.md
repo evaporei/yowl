@@ -1,4 +1,10 @@
-# yowl
+<p align="center">
+  <a href="https://github.com/otaviopace/yowl">
+    <img src="https://user-images.githubusercontent.com/15306309/45008498-7590fb80-afd9-11e8-8a76-fccf7c58a414.gif" alt="yowl_gif" >
+  </a>
+</p>
+
+<h1 align="center">yowl</h1>
 
 > Twitter clone in Rails 5
 
