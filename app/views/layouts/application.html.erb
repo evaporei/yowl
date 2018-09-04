@@ -13,6 +13,11 @@
     <%= render '/layouts/nav' %>
 
     <div class="container">
+      <%# Devise gem alerts %>
+      <span class="notice"><%= notice %></span>
+      <span class="alert"><%= alert %></span>
+      <%# Devise gem alerts %>
+
       <%= yield %>
     </div>
   </body>
