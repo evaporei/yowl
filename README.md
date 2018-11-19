@@ -8,36 +8,46 @@
 
 > Twitter clone in Rails 5
 
-Things you may want to cover:
+## What do you kneed on your computer
 
-* Ruby version
+- Ruby
+- Ruby Gem "Bundler"
+- Ruby Gem "Rails"
 
-2.5.0.
+Note: if you have `arch linux`, just like me, for setup I've just used:
 
-* System dependencies
+Install `ruby`:
 
-Just Rails dependencies.
+```shell
+sudo pacman -Sy ruby
+```
 
-* Configuration
+Install `rails` and `bundler`:
 
-None.
+```shell
+yaourt -Sy ruby-rails
+# or yay
+yay -Sy ruby-rails
+```
 
-* Database creation
+* Ruby version used: *2.5.3*, but the `Gemfile` is setup to work with any version bigger than *2.5* :slightly_smiling_face:
 
-None.
+## How to run
 
-* Database initialization
+### Install dependencies:
 
-None.
+```shell
+bundle install
+```
 
-* How to run the test suite
+### Run migrations:
 
-None.
+```shell
+rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Run the project:
 
-None.
-
-* Deployment instructions
-
-None.
+```shell
+rails server
+```
